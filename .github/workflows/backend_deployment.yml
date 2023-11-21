@@ -13,6 +13,17 @@ env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'       # set this to the path to your function app project, defaults to the repository root
   PYTHON_VERSION: '3.9'                     # set this to the python version to use (e.g. '3.6', '3.7', '3.8')
 
+  COSMOSDB_ACC_NAME: ${{ vars.COSMOSDB_ACC_NAME}}
+  COSMOSDB_CLIENT: ${{ vars. COSMOSDB_CLIENT}}
+  COSMOSDB_CONT_NAME: ${{ vars. COSMOSDB_CONT_NAME}}
+  COSMOS_ENDPOINT: ${{ vars. COSMOS_ENDPOINT}}
+  COSMOS_KEY: ${{ vars. COSMOS_KEY}}
+
+
+
+  
+
+  
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -24,6 +35,17 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Display Python version
+      run: python -c "import sys; print(sys.version)"
+
+    - name: Run the python tests
+      run: |
+        pip install azure-cosmos
+        pushd Backend_CRC
+        python tests.py
+        popd
+
 
     - name: 'Resolve Project Dependencies Using Pip'
       shell: bash
