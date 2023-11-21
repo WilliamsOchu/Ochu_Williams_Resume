@@ -4,7 +4,7 @@ import azure.functions as func
 from azure.cosmos import CosmosClient
 
 
-## We have setup github actions
+## Intergrated workflow functions
 
 
 ## Set the Cosmosdb variables by obtaining the env variables
