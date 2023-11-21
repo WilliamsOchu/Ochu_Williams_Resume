@@ -1,5 +1,5 @@
-name: deploy_frontend
-# deploys when push is made from frontend folder
+name: Deploy the frontend as static website on Azure 
+# Deploys to static website when a push is made from the front end
 
 on:
     push:
