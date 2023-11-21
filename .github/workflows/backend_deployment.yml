@@ -43,7 +43,7 @@ jobs:
     - name: Run the python tests
       run: |
         pip install azure-cosmos
-        pushd Backend_CRC
+        pushd backend_crc
         python tests.py
         popd
 

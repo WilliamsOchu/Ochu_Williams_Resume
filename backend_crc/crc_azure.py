@@ -20,7 +20,7 @@ id = "1"
 database = client.get_database_client(database_name)
 container = database.get_container_client(container_name)
 
-## Define a function to read and increment the number in DB by +1
+## Define a function to read and increment the count in DB by +1
 
 def item_count_updater(req: func.HttpRequest) -> func.HttpResponse: 
     # Get the current count item in the DB
