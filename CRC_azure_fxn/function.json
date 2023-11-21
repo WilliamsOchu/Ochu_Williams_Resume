@@ -1,5 +1,6 @@
 {
-  "scriptFile": "__init__.py",
+  "scriptFile": "crc_azure.py",
+  "entryPoint": "item_count_updater",
   "bindings": [
     {
       "authLevel": "function",
