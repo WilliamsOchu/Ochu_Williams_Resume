@@ -4,7 +4,7 @@ import azure.functions as func
 from azure.cosmos import CosmosClient
 
 
-## Intergrated workflow functions
+## Initialize and manage database
 
 
 ## Set the Cosmosdb variables by obtaining the env variables
