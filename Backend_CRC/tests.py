@@ -16,7 +16,7 @@ id = "1"
 database = client.get_database_client(database_name)
 container = database.get_container_client(container_name)
 
-## Establish a class for the unittests
+## Establish a class for each of the unittests
 class TestCalcls(unittest.TestCase):
 
     def test_cosmosDB_client(self):
