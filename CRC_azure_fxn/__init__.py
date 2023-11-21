@@ -19,6 +19,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "Lace dem trainers up by headie one and ktrapp",
+             "Lace dem trainers up by headie one and ktrapp, bandokay",
              status_code=200
         )
