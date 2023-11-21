@@ -4,7 +4,7 @@ import azure.functions as func
 from azure.cosmos import CosmosClient
 
 
-## We have setup github actions go rats and cats and mice and pipsds and mouse
+## We have setup github actions
 
 
 ## Set the Cosmosdb variables by obtaining the env variables
