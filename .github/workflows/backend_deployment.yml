@@ -1,7 +1,12 @@
 name: Deploy Python project to Azure Function App
 
 on:
-  [push]
+  push:
+      branches:
+        - master
+        - main
+      paths:
+        - 'Backend_CRC/**'
 
 env:
   AZURE_FUNCTIONAPP_NAME: app-crcresumefxn   # set this to your function app name on Azure
