@@ -7,7 +7,7 @@
 This is the resume of Ochu Williams Faithful.
 It was initially built as an entry for the Cloud Resume Challenge. It has been modified to suit my own needs and specifications while still abiding by the core fundamentals of the challenge.
 
-N:B: The Cloud Resume Challenge is a 16-step project that indulges prospective cloud engineers and helps open up the cloud to an eager and inquisitive mind. 
+**N:B:** The Cloud Resume Challenge is a 16-step project that indulges prospective cloud engineers and helps open up the cloud to an eager and inquisitive mind. 
 According to Forrest Brazael who crafted this challenge, it can be summarised as "a proven way to advance your cloud career".
 
 ## Tools used to build this
