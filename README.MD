@@ -21,7 +21,10 @@ According to Forrest Brazael who crafted this challenge, it can be summarised as
 - CI/CD workflow setup with Github Actions
 
 Here is a diagram illustrating the workflow process of this project:
-![Ochu_Williams_Resume_Workflow](Ochu_resume/frontend/assets/img/OchuWilliams_Resume.jpg)
+![Ochu_Williams_Resume_Workflow](/frontend/assets/img/OchuWilliams_Resume.jpg "Resume_Workflow_Image")
 
 ## Further Read
+Click here to view: [My_Resume](https://www.williamsochu.me)
+
 Here is a link that explains in detail how I built this resume: 
+
