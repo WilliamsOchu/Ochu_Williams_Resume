@@ -136,3 +136,7 @@ __azurite_db*__.json
 
 
 ## My workfiles
+.vscode
+host.json
+.funcignore
+backend_crc/sample.dat
