@@ -26,5 +26,5 @@ Here is a diagram illustrating the workflow process of this project:
 ## Further Read
 Click here to view: [My_Resume](https://www.williamsochu.me)
 
-Here is a link that explains in detail how I built this resume: 
+Here is a link that explains in detail how I built this resume: [The Cloud Resume Challenge - Building my resume on Azure!](https://ochuwilliams.hashnode.dev/the-cloud-resume-challenge-building-my-resume-on-azure)
 
